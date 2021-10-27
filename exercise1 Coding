@@ -1,0 +1,91 @@
+package practice;
+
+public class baseonweek3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int oneThousand =1000;
+int oneMillion = 1000 * oneThousand;
+int oneBillion = 1000 * oneMillion;
+int threeBillion = 3 * oneBillion;
+System.out.println(threeBillion);
+
+
+	}
+
+}
+
+public class bow3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Java Exercises!";
+        System.out.println("Original String = " + str);
+        
+        int index1 = str.charAt(0);
+        int index2 = str.charAt(10);
+
+      
+        System.out.println("The character at  0 is " +
+            (char)index1);
+        System.out.println("The character at 10 is " +
+            (char)index2);	
+      
+	}
+	
+
+}
+
+package practice;
+
+public class bow {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int chr = 'Z';
+		System.out.println("The ASCII value of Z is :"+chr);
+	}
+
+}
+
+package practise2;
+
+public class four {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println(4.0 * (1-(1.0/3)+(1.0/5)-(1.0/7)+(1.0/9)-(1.0/11)));
+	
+	}
+
+}
+
+package practiceweek3;
+
+public class one {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println(50/3);
+System.out.println(4/2);
+System.out.println(20/5);
+System.out.println(66/30);
+	}
+
+}
+
+package practiceweek3;
+
+public class two {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(-5 + 8 * 6);
+		System.out.println((55+9) % 9);
+		System.out.println(20 + -3*5 / 8);
+		System.out.println(5 + 15 / 3 * 2 - 8 % 3);
+	
+
+	}
+
+}
