@@ -1,0 +1,56 @@
+package numericalData;
+
+import java.util.Scanner;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			String name;
+			char gred;
+		int number1 = 11;
+		int number2 = 22;
+		int number3 = 33;
+		int number4 = 44;
+		int number5 = 55;
+		int number6 = 66;
+		double number7 = 77;
+		double number8 = 100;
+		double number9 = 88;
+		double number10 = 99;
+		int sum;
+		int sum2; 
+		int sum3;
+		double sum4;
+		double sum5;
+		int average;
+		double sum6;
+
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Enter your name:");
+		name = scan.nextLine();
+		
+		System.out.println("Enter cgpa:");
+		number7 = scan.nextDouble();
+		
+		System.out.print("Enter your gred for Math in SPM:");
+		gred = scan.next().charAt(0);
+		
+		System.out.println("Enter Number1:");
+		number1 = scan.nextInt();
+
+		System.out.println("Enter Number2:");
+		number2 = scan.nextInt();
+		System.out.println("Number2 - " + number2);
+		
+		System.out.println("My name is" + name);
+		System.out.println("Number1 is" + number1);
+		System.out.println("Number2 is" + number2);
+		System.out.println("Number7 is" + number7);
+		System.out.println("MY gred is" + gred);
+		sum = number1 + number2 + number3 + number4 + number5 ;
+		System.out.print("The sum of 5 integer are " + sum);
+	}
+
+}
