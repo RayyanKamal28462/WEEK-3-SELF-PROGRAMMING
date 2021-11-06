@@ -1,0 +1,17 @@
+package practice;
+
+public class Boolean1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean isJavaFun = true;
+		boolean isFishTasty = false;
+		System.out.println(isJavaFun);     
+		System.out.println(isFishTasty);  
+System.out.println();
+		int x = 10;
+		int y = 9;
+		System.out.println(x > y);
+	}
+
+}
