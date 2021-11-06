@@ -1,0 +1,14 @@
+package practice;
+
+public class booleancompobj {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		booleancompobj b1=new booleancompobj ();  
+        booleancompobj b2=new booleancompobj ();  
+          
+        boolean result=(b1==b2);  
+        System.out.println("Is objects are equal : "+result);  
+	}
+
+}
